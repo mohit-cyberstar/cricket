@@ -18,7 +18,7 @@ def django_tests(runner, labels):
     TestRunner = getattr(module, runner_class_name)
 
     runner = TestRunner(
-        verbosity=4,
+        verbosity=14,
         interactive=False,
         failfast=False,
     )
